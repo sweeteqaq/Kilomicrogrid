@@ -1,0 +1,129 @@
+
+body{
+  background: #f5f5f5;
+}
+
+.header{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:1em;
+  background: #fff;
+  color: red;
+  font-size: 1em;
+  margin-bottom: 1em;
+
+  .glyphicon-menu-left:before{
+    font-size: 2em;
+  }
+  .glyphicon-home:before{
+    font-size: 2em;
+  }
+
+  .sp{
+      span{
+          color: #000;
+          font-size: 2em;
+      }
+  }
+}
+
+// item
+.item{
+  .lit{
+    display: flex;
+    .left{
+      width: 50%;
+      img{
+        width: 100%;
+      }
+    }
+    .right{
+      width: 50%;
+      .top{
+        img{
+         width: 100%;
+        }
+      }
+      .bottom{
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+// conter
+.conter{
+  .itn{
+
+    .top{
+      text-align: center;
+      p{
+        font-weight: bold;
+        font-size: 1.5em;
+      }
+    
+      
+    }
+    .bottom{
+      .lis{
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#000;
+    position: sticky;
+    bottom:0;
+    left:0;
+    width:100%;
+    z-index:10;
+  
+    .item{
+      width:25%;
+      height:100%;
+      padding:.7em 0em;
+      text-align: center;
+      color:#fff;
+  
+      transition: all ease-in .2s;
+  
+      span{
+        display: block;
+        text-align: center;
+        font-size:1.2em;
+  
+        &:first-child{
+          margin-bottom:.2em;
+        }
+      }
+  
+      &:hover{
+        background:#1c91dd;
+        color:#fff;
+      }
+    }
+  }

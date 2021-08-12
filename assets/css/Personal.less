@@ -1,0 +1,167 @@
+body{
+  background: #f5f5f5;
+}
+
+.header{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:1em;
+  background: #fff;
+  color: red;
+  font-size: 1em;
+
+  .glyphicon-menu-left:before{
+    font-size: 2em;
+  }
+  .glyphicon-home:before{
+    font-size: 2em;
+  }
+
+  .sp{
+      span{
+          color: #000;
+          font-size: 2em;
+      }
+  }
+}
+
+
+// demo
+.demo{
+  margin-bottom: 1em;
+  .list{
+    background: url('../images/yh2.png') no-repeat  ;
+    padding: 2em 0;
+    text-align: center;
+      .img{
+        width: 100%;
+        margin-bottom: 1em;
+
+      }
+      .sp{
+        span{
+          font-size: 1.5em;
+          color: #fff;
+        }
+      }
+  }
+}
+
+
+
+.payment{
+  background: #ffffff;
+  border: 1px solid #ccc;
+  height: 4em;
+  .center{
+    .fond{
+      display: flex;
+      justify-content: space-around;
+      span{
+        color: #666666;
+        font-size: 1em;
+        padding-top: 1em;
+      }
+    }
+  }
+}
+
+
+
+// title
+.title{
+  margin-bottom: 2em;
+  .title1{
+    .hand{
+      display: flex;
+      position: relative;
+      border: 1px solid #dddddd;
+      .left{
+        padding: 5px;
+        img{
+          width: 100%;
+        }
+      }
+      .word{
+        padding: 9px 5px;
+      }
+      .right{
+        img{
+          right: 3%;
+          top: 25%;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+
+.title2{
+  .title3{
+    .hand{
+      display: flex;
+      position: relative;
+      border: 1px solid #dddddd;
+      .left{
+        padding: 5px;
+        img{
+          width: 100%;
+        }
+      }
+      .word{
+        padding:9px 5px ;
+      }
+      .word1{
+        padding: 9px 12px;
+      }
+      .right{
+        img{
+          right: 3%;
+          top: 25%;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#000;
+    position: sticky;
+    bottom:0;
+    left:0;
+    width:100%;
+    z-index:10;
+  
+    .item{
+      width:25%;
+      height:100%;
+      padding:.7em 0em;
+      text-align: center;
+      color:#fff;
+  
+      transition: all ease-in .2s;
+  
+      span{
+        display: block;
+        text-align: center;
+        font-size:1.2em;
+  
+        &:first-child{
+          margin-bottom:.2em;
+        }
+      }
+  
+      &:hover{
+        background:#1c91dd;
+        color:#fff;
+      }
+    }
+  }
